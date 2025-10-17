@@ -1,0 +1,7 @@
+# YOLOv8 Object Detection with Webcam
+
+ultralytics==8.2.100      # YOLOv8 package
+opencv-python==4.10.0.84  # For video capture and display
+torch>=2.0.0              # PyTorch backend for YOLO
+torchvision>=0.15.0       # Vision library (required for PyTorch)
+numpy>=1.23.0             # Array operations (used internally by YOLO/OpenCV)
